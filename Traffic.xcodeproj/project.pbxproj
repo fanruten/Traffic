@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1001A04193E22EF00D480E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1001A03193E22EF00D480E5 /* AppDelegate.swift */; };
+		D1001A06193E22EF00D480E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1001A05193E22EF00D480E5 /* ViewController.swift */; };
+		D1001A09193E22EF00D480E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1001A07193E22EF00D480E5 /* Main.storyboard */; };
+		D1001A0B193E22EF00D480E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1001A0A193E22EF00D480E5 /* Images.xcassets */; };
+		D1001A27193E232400D480E5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1001A26193E232400D480E5 /* NotificationCenter.framework */; };
+		D1001A2C193E232400D480E5 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1001A2B193E232400D480E5 /* TodayViewController.swift */; };
+		D1001A31193E232400D480E5 /* com.e-legion.Traffic.Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D1001A24193E232400D480E5 /* com.e-legion.Traffic.Widget.appex */; };
+		D1813B23193F56F700639858 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13B6DD2193E52FE00FA636D /* MapKit.framework */; };
+		D1BFF1181940790D005401D1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1001A2D193E232400D480E5 /* MainInterface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1001A2F193E232400D480E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10019F6193E22EF00D480E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1001A23193E232400D480E5;
+			remoteInfo = Widget;
+		};
+		D1001A32193E232400D480E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D10019F6193E22EF00D480E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1001A23193E232400D480E5;
+			remoteInfo = Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1001A37193E232400D480E5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D1001A31193E232400D480E5 /* com.e-legion.Traffic.Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68369378165544F5AE0DC524 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D10019FE193E22EF00D480E5 /* Traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1001A02193E22EF00D480E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1001A03193E22EF00D480E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1001A05193E22EF00D480E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1001A08193E22EF00D480E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1001A0A193E22EF00D480E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1001A24193E232400D480E5 /* com.e-legion.Traffic.Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.e-legion.Traffic.Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1001A26193E232400D480E5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D1001A2A193E232400D480E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1001A2B193E232400D480E5 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		D1001A2D193E232400D480E5 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		D13B6DD2193E52FE00FA636D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D1CA3CBA193FDD23003CC840 /* com.e-legion.Traffic.Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "com.e-legion.Traffic.Widget.entitlements"; sourceTree = "<group>"; };
+		D1CA3CBB193FDD2D003CC840 /* Traffic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Traffic.entitlements; sourceTree = "<group>"; };
+		D1D77808193E77B1006ACADB /* Traffic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Traffic-Bridging-Header.h"; sourceTree = "<group>"; };
+		D1D7780B193E79B1006ACADB /* Widget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Widget-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10019FB193E22EF00D480E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1813B23193F56F700639858 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1001A21193E232400D480E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1001A27193E232400D480E5 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10019F5193E22EF00D480E5 = {
+			isa = PBXGroup;
+			children = (
+				D1001A00193E22EF00D480E5 /* Traffic */,
+				D1001A28193E232400D480E5 /* Widget */,
+				D1001A25193E232400D480E5 /* Frameworks */,
+				D10019FF193E22EF00D480E5 /* Products */,
+				68369378165544F5AE0DC524 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D10019FF193E22EF00D480E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10019FE193E22EF00D480E5 /* Traffic.app */,
+				D1001A24193E232400D480E5 /* com.e-legion.Traffic.Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1001A00193E22EF00D480E5 /* Traffic */ = {
+			isa = PBXGroup;
+			children = (
+				D1CA3CBB193FDD2D003CC840 /* Traffic.entitlements */,
+				D1001A03193E22EF00D480E5 /* AppDelegate.swift */,
+				D1001A05193E22EF00D480E5 /* ViewController.swift */,
+				D1001A07193E22EF00D480E5 /* Main.storyboard */,
+				D1001A0A193E22EF00D480E5 /* Images.xcassets */,
+				D1001A01193E22EF00D480E5 /* Supporting Files */,
+				D1D77808193E77B1006ACADB /* Traffic-Bridging-Header.h */,
+			);
+			path = Traffic;
+			sourceTree = "<group>";
+		};
+		D1001A01193E22EF00D480E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1001A02193E22EF00D480E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1001A25193E232400D480E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D13B6DD2193E52FE00FA636D /* MapKit.framework */,
+				D1001A26193E232400D480E5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1001A28193E232400D480E5 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				D1CA3CBA193FDD23003CC840 /* com.e-legion.Traffic.Widget.entitlements */,
+				D1001A2B193E232400D480E5 /* TodayViewController.swift */,
+				D1001A2D193E232400D480E5 /* MainInterface.storyboard */,
+				D1001A29193E232400D480E5 /* Supporting Files */,
+				D1D7780B193E79B1006ACADB /* Widget-Bridging-Header.h */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		D1001A29193E232400D480E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1001A2A193E232400D480E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10019FD193E22EF00D480E5 /* Traffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1001A1A193E22EF00D480E5 /* Build configuration list for PBXNativeTarget "Traffic" */;
+			buildPhases = (
+				D10019FA193E22EF00D480E5 /* Sources */,
+				D10019FB193E22EF00D480E5 /* Frameworks */,
+				D10019FC193E22EF00D480E5 /* Resources */,
+				D1001A37193E232400D480E5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1001A30193E232400D480E5 /* PBXTargetDependency */,
+				D1001A33193E232400D480E5 /* PBXTargetDependency */,
+			);
+			name = Traffic;
+			productName = Traffic;
+			productReference = D10019FE193E22EF00D480E5 /* Traffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1001A23193E232400D480E5 /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1001A34193E232400D480E5 /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				D1001A20193E232400D480E5 /* Sources */,
+				D1001A21193E232400D480E5 /* Frameworks */,
+				D1BFF117194078FE005401D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = Widget;
+			productReference = D1001A24193E232400D480E5 /* com.e-legion.Traffic.Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10019F6193E22EF00D480E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "e-legion";
+				TargetAttributes = {
+					D10019FD193E22EF00D480E5 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 96GT47C53G;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D1001A23193E232400D480E5 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 96GT47C53G;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D10019F9193E22EF00D480E5 /* Build configuration list for PBXProject "Traffic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10019F5193E22EF00D480E5;
+			productRefGroup = D10019FF193E22EF00D480E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10019FD193E22EF00D480E5 /* Traffic */,
+				D1001A23193E232400D480E5 /* Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10019FC193E22EF00D480E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1001A09193E22EF00D480E5 /* Main.storyboard in Resources */,
+				D1001A0B193E22EF00D480E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1BFF117194078FE005401D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BFF1181940790D005401D1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10019FA193E22EF00D480E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1001A06193E22EF00D480E5 /* ViewController.swift in Sources */,
+				D1001A04193E22EF00D480E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1001A20193E232400D480E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1001A2C193E232400D480E5 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1001A30193E232400D480E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1001A23193E232400D480E5 /* Widget */;
+			targetProxy = D1001A2F193E232400D480E5 /* PBXContainerItemProxy */;
+		};
+		D1001A33193E232400D480E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1001A23193E232400D480E5 /* Widget */;
+			targetProxy = D1001A32193E232400D480E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1001A07193E22EF00D480E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1001A08193E22EF00D480E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1001A18193E22EF00D480E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1001A19193E22EF00D480E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1001A1B193E22EF00D480E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Traffic/Traffic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/include/libxml2\"";
+				INFOPLIST_FILE = Traffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					MessageUI,
+					"-framework",
+					OpenAL,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Traffic/Traffic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1001A1C193E22EF00D480E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Traffic/Traffic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/include/libxml2\"";
+				INFOPLIST_FILE = Traffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					MessageUI,
+					"-framework",
+					OpenAL,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Traffic/Traffic-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D1001A35193E232400D480E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Widget/com.e-legion.Traffic.Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/include/libxml2\"";
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					MessageUI,
+					"-framework",
+					OpenAL,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
+				PRODUCT_NAME = "com.e-legion.Traffic.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Widget/Widget-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1001A36193E232400D480E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Widget/com.e-legion.Traffic.Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/include/libxml2\"";
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					AVFoundation,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					CoreData,
+					"-framework",
+					CoreLocation,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					MessageUI,
+					"-framework",
+					OpenAL,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
+				PRODUCT_NAME = "com.e-legion.Traffic.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Widget/Widget-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10019F9193E22EF00D480E5 /* Build configuration list for PBXProject "Traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1001A18193E22EF00D480E5 /* Debug */,
+				D1001A19193E22EF00D480E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1001A1A193E22EF00D480E5 /* Build configuration list for PBXNativeTarget "Traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1001A1B193E22EF00D480E5 /* Debug */,
+				D1001A1C193E22EF00D480E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1001A34193E232400D480E5 /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1001A35193E232400D480E5 /* Debug */,
+				D1001A36193E232400D480E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10019F6193E22EF00D480E5 /* Project object */;
+}
